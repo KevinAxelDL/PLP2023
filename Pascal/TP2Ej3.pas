@@ -5,7 +5,8 @@ todos estos calculos. Justifique la eleccion entre usar una funcion o un procedi
 
 (* NOTA: Dado que los procedimientos no retornan un valor al programa principal y dado que no
 es conveniente "imprimir" desde un modulo (ya sea funcion o procedimiento), en este caso,
-es conveniente usar una funcion y retornar ambos valores dentro de un arreglo*)
+es conveniente usar una funcion y retornar ambos valores dentro de un arreglo, dada la restriccion
+del enunciado*)
 
 program TP2Ej3;
 
