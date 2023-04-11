@@ -1,4 +1,3 @@
-
 Program TP2Ej1;
 
 Var a , b , c , d , s :   integer ;

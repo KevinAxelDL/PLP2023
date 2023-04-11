@@ -1,6 +1,7 @@
 
 (* 2. Escriba en el lenguaje de programacion Pascal un programa que permita leer
 dos numeros (por teclado) y que imprima (con cartel y valores): *)
+
 Program TP2Ej2;
 
 Var in1, in2, res: Integer;

@@ -1,23 +1,30 @@
 
+
 (* Dado el radio R de una esfera, escriba un programa que permita calcular e 
 imprimir su superficie y su volumen. Utilice un solo procedimiento para realizar 
 todos estos calculos. Justifique la eleccion entre usar una funcion o un procedimiento*)
+
 
 (* NOTA: Dado que los procedimientos no retornan un valor al programa principal y dado que no
 es conveniente "imprimir" desde un modulo (ya sea funcion o procedimiento), en este caso,
 es conveniente usar una funcion y retornar ambos valores dentro de un arreglo, dada la restriccion
 del enunciado*)
 
-program TP2Ej3;
+Program TP2Ej3;
 
 (*TIPOS*)
-type arregloResulados = array [1..2] of Real;
+
+Type arregloResulados = array [1..2] Of Real;
 
 (*DECLARACION*)
-var in1: Real;
-var arResultados: arregloResulados;
-var arResultadosAux: arregloResulados;
-var superficieEsfera, volumenEsfera: Real; 
+
+Var in1: Real;
+
+Var arResultados: arregloResulados;
+
+Var arResultadosAux: arregloResulados;
+
+Var superficieEsfera, volumenEsfera: Real;
 
 
 (*FUNCIONES*)
@@ -30,6 +37,7 @@ Begin
   calularSuperficieYVolumen := arResultadosAux;
 End;
 
+(*MAIN*)
 Begin
   WriteLn('INGRESE EL RADIO DE LA ESFERA: ');
   ReadLn(in1);
