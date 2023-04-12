@@ -10,10 +10,10 @@ var respuesta: ShortString;
 (*FUNCTIONS*)
 Function mayor(num: Real): String;
 
-Var in1String, respuestaAux: String;
+Var in1String, respuestaAux: String;(*Variables locales*)
 
 Begin
-  Str(num, in1String);
+  Str(num, in1String);(*Conversion de Real a String*)
   If num > 0 Then
     Begin
       respuestaAux := in1String + ' > 0';
@@ -29,6 +29,7 @@ Begin
           respuestaAux := in1String + ' = 0';
         End;
     End;
+
   mayor := respuestaAux;
 End;
 

@@ -24,11 +24,11 @@ Var arResultados: arregloResulados;
 
 Var arResultadosAux: arregloResulados;
 
-Var superficieEsfera, volumenEsfera: Real;
-
-
 (*FUNCIONES*)
 Function calularSuperficieYVolumen(radio :Real): arregloResulados;
+
+Var superficieEsfera, volumenEsfera: Real;
+
 Begin
   superficieEsfera := 4*pi*radio*(2*2);
   arResultadosAux[1] := superficieEsfera;
